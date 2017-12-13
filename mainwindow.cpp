@@ -1,7 +1,9 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include <QMessageBox>
+#include "insideportal.h"
 #include "portalframework.h"
+#include <QPixmap>
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -25,8 +27,10 @@ void MainWindow::on_Login_clicked()
     {
         PortalFrameWork portalFrameWork;
         hide();
+
         portalFrameWork.setModal(true);
         portalFrameWork.exec();
+        ui->statusBar->showMessage("Username and password is correct.");
     }
     else
     {

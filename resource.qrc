@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>Images/2280_kohisunrise_1920x1080.jpg</file>
+        <file>Images/2235_atlanticwestcoast_1920x1080.jpg</file>
+        <file>Images/2257_thelastrayofsunshine_1920x1080.jpg</file>
+        <file>Images/2308_thelonesomedune_1920x1080.jpg</file>
+        <file>Images/2341_theroadtobonneville_1920x1080.jpg</file>
+        <file>Images/1584_ladybughdr_1920x1080.jpg</file>
+        <file>Images/1222_pattern_1920x1080.jpg</file>
+    </qresource>
+</RCC>

@@ -15,6 +15,16 @@ public:
     explicit PortalFrameWork(QWidget *parent = 0);
     ~PortalFrameWork();
 
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_department_clicked();
+
+    void on_pushButton_projects_clicked();
+
+    void on_pushButton_employees_clicked();
+
+
 private:
     Ui::PortalFrameWork *ui;
 };
